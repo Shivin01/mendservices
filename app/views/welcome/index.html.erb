@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">    
+<title>MendServices</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
+</script>
+<meta name="keywords" content="Your App Responsive web template, Bootstrap Web Templates, Flat Web Templates, AndriodCompatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<!--Google Fonts-->
+<link href='//fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- //end-smoth-scrolling -->
+</head>
+<body>
+<!--header start here-->
+<div class="banner">
+ <div class="header">
+	<div class="container">
+		 <div class="header-main">
+				<div class="logo">
+					<h1><a href="root_path">Mend</a></h1>
+				</div>
+				<div class="header-right">
+				<div class="top-nav">
+					<span class="menu"><img src="<%= asset_path('icon.png') %>" ></span>
+					<ul class="res">
+					   <li><a href="#home" class="scroll active">Home</a></li> 
+						<li><a class="scroll" href="#services">Services</a></li> 
+						<li><a class="scroll" href="#features">Technology Stack</a></li> 
+						<li><a class="scroll" href="#contact">Contact</a></li> 
+				   </ul>
+					<!-- script-for-menu -->
+						 <script>
+						   $( "span.menu" ).click(function() {
+							 $( "ul.res" ).slideToggle( 300, function() {
+							 // Animation complete.
+							  });
+							 });
+						</script>
+		        <!-- /script-for-menu -->
+				</div>
+		 </div>
+		 <div class="clearfix"> </div>
+	  </div>
+		 <div class="banner-bottom">
+		 	<h3>Mend Services</h3>
+             <h4>Making life easier</h4>
+		 </div>
+	 </div>
+ </div>
+</div>
+<!--header end here-->
+<!--app info-->
+<div class="container">
+    <div class="app-info">
+		<div class="app-info-main">
+			<div class="app-row1">
+				<div class="col-md-4 app-info-grid app-gd1">
+					<div class="app-in-grd">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"> </span>
+                    <!--    <span class="glyphicon glyphicon-apple" aria-hidden="true"> </span> -->
+						<h3>IphoneApp </h3>
+						<p>Coming Soon</p>
+				    </div>
+				</div>
+				<div class="col-md-4 app-info-grid app-gd2">
+					<div class="app-in-grd">
+                        <span class="glyphicon glyphicon-phone" aria-hidden="true"> </span>
+						<!--<span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"> </span> -->
+						<h3>Andriod App</h3>
+						<p>Coming Soon</p>
+					</div>
+				</div>
+				<div class="col-md-4 app-info-grid app-gd3">
+					<div class="app-in-grd">
+                        <span class="glyphicon glyphicon-phone" aria-hidden="true"> </span>
+					<!--	<span class="glyphicon glyphicon-apple" aria-hidden="true"> </span> -->
+						<h3>Windows App</h3>
+						<p>Coming Soon</p>
+					</div>
+				</div>
+			  <div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--//app info-->
+<!--services start here-->
+<div class="services" id="services">
+	<div class="container">
+		<div class="services-main">
+		  <div class="services-top">
+		  	 <h3>MendServices</h3>
+		  	 <p>All about Mend Services</p>
+		  </div>
+		  <div class="service-bottom">
+			<div class="col-md-4 serv-grids">
+				<div class="ser-border">
+				<!--	<span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span> -->
+					<h4>Flat tyre?</h4>
+					<p>On road service for flat tyre, call us and our man will be there within minutes</p>
+			    </div>
+			</div>
+			<div class="col-md-4 serv-grids">
+				<div class="ser-border">
+				<!--	<span class="glyphicon glyphicon-user" aria-hidden="true"> </span> -->
+                 <!--   <span class="glyphicon glyphicon-cog" aria-hidden="true"> </span> -->
+					<h4>Vehicle Breakdown</h4>
+					<p>Vehicle Breakdown and no one near by? Quick solutions for on road vehicle breakdown</p>
+			    </div>
+			</div>
+			<div class="col-md-4 serv-grids">
+				<div class="ser-border">
+				<!--	<span class="glyphicon glyphicon-hourglass" aria-hidden="true"> </span> -->
+					<h4>Services at your doorstep</h4>
+					<p>Automobile services at your doorsteps! Relax & let Mend know when to service your car!</p>
+			   </div>
+			</div>
+		 <div class="clearfix"> </div>
+		 </div>
+		</div>
+	</div>
+</div>
+<!--app end here-->
+<!-- changer start here-->
+<div class="changer">
+	<div class="container">
+		  <div class="changer-top">
+					<h3>How it Works?</h3>
+                        <p>In simple 4 steps</p>
+		  </div>
+			  <div class="changer-main">
+					<span class="devide-line"> </span>
+					<div class="changer-left">
+				        <img src="<%= asset_path('12.jpg') %>" class="img-responsive">
+					</div>
+					<div class="changer-right">
+						<h4>1. Download Our APP</h4>
+						<p>This is the place where we and you first meet</p>
+					</div>
+					<div class="changer-left-snd">
+						 <h4>2. Mend App downloaded?</h4>
+                        <p>Follow the App instructions & be a Part of mend Family</p>
+					</div>
+					<div class="changer-right-snd">
+						<img src="<%= asset_path('13.jpg') %>" class="img-responsive">
+					</div>
+					<div class="changer-left-trd">
+						<img src="<%= asset_path('14.jpg') %>" class="img-responsive">
+					</div>
+					<div class="changer-right-trd">
+						<h4>While Traveling, Car broke down</h4>
+						<p>Go To our app, and simply notify us with your problem!</p>
+					</div>
+					<div class="changer-left-fvr">
+						<h4>Sit back relax</h4>
+                        <p>He repairs Your car, you pay him & you are ready to go!</p>
+					</div>
+					<div class="changer-right-fvr">
+						<img src="<%= asset_path('15.jpg') %>" class="img-responsive">
+					</div>
+					<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--changer end here-->
+<!--content-->   
+<!--gallery-->
+<!--gallery-->   
+<div class="features" id="features">
+	<div class="container">
+		<div class="features-main">
+			<div class="fea-top">
+			  <h3>Technology Stack</h3>
+			  <p>We are combining some of the best technology for you to experience the uninterrupted app.</p>
+			</div>
+			<div class="feature-botttom">
+					<div class="feature-bott1">
+						<div class="col-md-6 fea-grid">
+							<div class="col-md-5 fea-img">
+								<a href="#"><img src="<%= asset_path('f1.png') %>" class="img-responsive"></a>
+							</div>
+							<div class="col-md-7 fea-text">
+								<h4><a href="#">Node Server</a></h4>
+								<p>Node's event driven architecture helps Mend to get millions of requests asynchronously</p>
+							 </div>
+						  <div class="clearfix"> </div>
+						</div>
+						<div class="col-md-6 fea-grid">
+							<div class="col-md-5 fea-img">
+								<a href="#"><img src="<%= asset_path('f2.png') %>" class="img-responsive"></a>
+							</div>
+							<div class="col-md-7 fea-text">
+								<h4><a href="#">Google Cloud</a></h4>
+								<p>Google cloud helps Mend's server to be reliable and scalable.</p>
+							</div>
+						</div>
+					   <div class="clearfix"> </div>
+				   </div>
+				   <div class="feature-bott1">
+						<div class="col-md-6 feature-grid">
+							<div class="col-md-5 fea-img">
+								<a href="#"><img src="<%= asset_path('f3.png') %>" class="img-responsive"></a>
+							</div>
+							<div class="col-md-7 fea-text">
+								<h4><a href="#">MongoDB</a></h4>
+								<p>Our one stop solution for storing your Database</p>
+							</div>
+						  <div class="clearfix"> </div>
+						</div>
+						<div class="col-md-6 feature-grid">
+							<div class="col-md-5 fea-img">
+								<a href="#"><img src="<%= asset_path('f4.png') %>" class="img-responsive"></a>
+							</div>
+							<div class="col-md-7 fea-text">
+								<h4><a href="#">Data science</a></h4>
+								<p>Mend is researching and finding algorithims to give you a smart app</p>
+							</div>
+						</div>
+					   <div class="clearfix"> </div>
+				   </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--features end here->
+<!--clients start here-->
+<div class="client">
+	<div class="container">
+		<div class="clients-main">
+			  <section class="slider">
+						<div class="flexslider">
+							<ul class="slides">
+								<li>
+									<img src="<%= asset_path('Sambhav.jpg') %>" class="img-responsive">
+									<h4>Sambhav Jain</h4>
+									<h5>Co-founder & Backend Developer</h5>
+								</li>
+								<!--<li>	
+                                    <img src="<%= asset_path('Shivin.jpg') %>" class="img-responsive">
+									<h4>Shivin Agarwal</h4>
+									<h5>Co-founder</h5>
+								</li> -->
+								<li>
+						              <img src="<%= asset_path('Sarthak.jpg') %>" class="img-responsive">
+									<h4>Sarthak Arora</h4>
+									<h5>Co-founder & Android Developer</h5>
+								</li>
+                                <li>
+									<img src="<%= asset_path('apoorv.jpg') %>" class="img-responsive">
+									<h4>Apoorv Singhal</h4>
+									<h5>Co-founder & Android Developer</h5>
+								</li>
+								<div class="clearfix"> </div>
+							</ul>
+						</div>
+			</section>
+		</div>
+	</div>
+</div>
+<!-- FlexSlider -->
+				  <script type="text/javascript">
+					$(function(){
+					  SyntaxHighlighter.all();
+					});
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+			<!-- FlexSlider -->
+
+<!--clients end here-->
+<!--contact start here-->
+    <div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-main">
+			  <h3>Contact Us</h3>
+            <%= form_for(:welcome, :url => {:action => "create"}, :html => {:multipart => true}) do |f| %>
+            <%= f.text_field :name, class: "input-main", placeholder: "Name" %> <br />
+            <%= f.text_field :email, class: "input-main", placeholder: "email" %> <br />
+            <%= f.text_field :phone , class: "input-main", placeholder: "phone" %><br />
+            <%= f.text_area :message, class: "input-main", placeholder: "Message" %> <br />
+			  	<input type="submit" value="Send">
+			  <% end %>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<!--copy right start here-->
+<div class="copy-right-main">
+	<div class="container">
+        <div class="copy-right">
+			<p>© 2015 MendServices All rights reserved</a></p> <!-- | Design by  <a href="http://w3layouts.com/" target="_blank">  W3layouts </a></p> -->
+		</div>
+		<script type="text/javascript">
+										$(document).ready(function() {
+											var defaults = {
+									  			containerID: 'toTop', // fading element id
+												containerHoverID: 'toTopHover', // fading element hover id
+												scrollSpeed: 1200,
+												easingType: 'linear' 
+									 		};
+											$().UItoTop({ easingType: 'easeOutQuart' });
+											
+										});
+									</script>
+						<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!--copy right end here-->
+</div>
+</div>
+</body>
+</html>
