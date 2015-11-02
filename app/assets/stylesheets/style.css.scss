@@ -27,6 +27,7 @@ a:hover {
     font-family: 'Quicksand-Regular';
     src: url('/assets/Quicksand-Regular.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'Roboto-Regular';
     src:url('/assets/Roboto-Regular.ttf') format('truetype');
@@ -176,8 +177,6 @@ span.menu {
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/*----*/
-/********** Login *************/
 #loginContainer {
     position:relative;
 }
@@ -1642,5 +1641,5 @@ span.devide-line {
   font-size: 0.8em;
   padding: 6px 15px;
 }
-}
+
 /*--media quries end here--*/
