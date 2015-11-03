@@ -15,6 +15,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass'
 
+# Use SCSS for stylesheets group :assets do #gem 'sass-rails', '~> 5.0' # Use Uglifier as compressor for JavaScript assets gem 'uglifier', '>= 1.3.0' # Use CoffeeScript for .coffee assets and views gem 'coffee-rails', '~> 4.1.0' end
 
 group :development, :test do
   gem 'byebug'
